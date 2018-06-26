@@ -50,6 +50,10 @@ import UIKit
  expected worst-case space complexity is O(X) (not counting the storage required for input arguments).
 
  */
+
+// So basically we have to find :-
+// The earliest index of occurrence of a number in an array provided which completes the sequence from 1 to given number X.
+
 public func solution(_ X : Int, _ A : inout [Int]) -> Int{
   var dict:[Int:Bool] = [:]
   
