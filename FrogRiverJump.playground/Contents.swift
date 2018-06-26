@@ -52,7 +52,7 @@ import UIKit
  */
 
 // So basically we have to find :-
-// The earliest index of occurrence of a number in an array provided which completes the sequence from 1 to given number X.
+// The earliest index of occurrence of a number in an array (given as input) which completes the sequence from 1 to given number X (given as input).
 
 public func solution(_ X : Int, _ A : inout [Int]) -> Int{
   var dict:[Int:Bool] = [:]
